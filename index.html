@@ -1,0 +1,118 @@
+<table border="1">
+<tr>
+<th>NIM</th><th>Nama</th><th>Program Studi</th>
+</tr>
+<tr>
+<td>31241001</td><td>Andi</td><td>Teknik Informatika</td>
+</tr>
+</table>
+<table border="1">
+<caption>Data Mahasiswa</caption>
+<thead>
+<tr><th>NIM</th><th>Nama</th><th>Nilai</th></tr>
+</thead>
+<tbody>
+<tr><td>31241001</td><td>Andi</td><td>85</td></tr>
+<tr><td>312510113</td><td>Rhiva</td><td>90</td></tr>
+<tr><td>31241002</td><td>Rendi</td><td>90</td></tr>
+<tr><td>31234567</td><td>Dino</td><td>90</td></tr>
+<tr><td>31241008</td><td>Ariel</td><td>90</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="2">Rata-rata</td><td>87.5</td></tr>
+</tfoot>
+</table>
+<form>
+<label for="nama">Nama:</label>
+<input type="text" id="nama" name="nama">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+<button type="submit">Kirim</button>
+</form>
+<label for="alamat">Alamat</label>
+<textarea id="alamat" name="alamat" rows="4" cols="40"></textarea>
+<label for="prodi">Program Studi</label>
+<select id="prodi" name="prodi">
+<option value="ti">Teknik Informatika</option>
+<option value="si">Sistem Informasi</option>
+</select>
+<button type="submit">Simpan</button>
+<header><h1>Portal Mahasiswa</h1></header>
+<nav>
+<a href="index.html">Beranda</a>
+<a href="profil.html">Profil</a>
+</nav>
+<main>
+<section>
+<h2>Berita Akademik</h2>
+<article>
+<h3>Praktikum HTML</h3>
+<p>Mahasiswa mengikuti praktikum HTML lanjutan.</p>
+</article>
+</section>
+<aside>Informasi tambahan</aside>
+</main>
+<footer><p>&copy; 2026 Teknik Informatika</p></footer>
+<audio controls>
+<source src="dongker.mp3.mp3" type="audio/mpeg">
+Browser tidak mendukung audio.
+</audio>
+<video controls width="480">
+<source src="videoplayback.mp4" type="video/mp4">
+Browser tidak mendukung video.
+</video>
+<form>
+<input type="text" name="nama" required minlength="3">
+<input type="email" name="email" required>
+<input type="number" name="umur" min="17" max="60" required>
+<button type="submit">Kirim</button>
+</form>
+<!DOCTYPE html>
+<html>
+<head><title>Biodata Mahasiswa</title></head>
+<body>
+<header><h1>Biodata Mahasiswa</h1></header>
+<nav>
+<a href="index.html">Beranda</a>
+<a href="#biodata">Biodata</a>
+<a href="#form">Form</a>
+</nav>
+<main>
+<section id="biodata">
+<h2>Data Mahasiswa</h2>
+<table border="1">
+<tr><th>Data</th><th>Keterangan</th></tr>
+<tr><td>NIM</td><td>312510113</td></tr>
+<tr><td>Nama</td><td>Muhammad Rhiva As</td></tr>
+<tr><td>Program Studi</td><td>Teknik Informatika</td></tr>
+</table>
+</section>
+<section id="form">
+<h2>Form Biodata</h2>
+<form>
+<label for="nama">Nama</label>
+<input type="text" id="nama" name="nama" required>
+<br><br>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+<br><br>
+<label for="prodi">Program Studi</label>
+<select id="prodi" name="prodi" required>
+<option value="">-- Pilih --</option>
+<option value="ti">Teknik Informatika</option>
+<option value="si">Sistem Informasi</option>
+</select>
+<br><br>
+<label for="alamat">Alamat</label><br>
+<textarea id="alamat" name="alamat" required></textarea>
+<br><br>
+<button type="submit">Simpan</button>
+<button type="reset">Reset</button>
+</form>
+</section>
+</main>
+<footer><p>&copy; 2026 Teknik Informatika</p></footer>
+</body>
+</html>
+
+
